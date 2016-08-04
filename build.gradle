@@ -1,0 +1,25 @@
+group 'io.mulberry'
+version '0.0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile group: 'org.apache.tika', name: 'tika-core', version: '1.13'
+    compile group: 'org.apache.tika', name: 'tika-parsers', version: '1.13'
+
+    //compile group: 'org.apache.tika', name: 'tika-example', version: '1.13'
+
+
+    //compile group: 'net.sourceforge.tess4j', name: 'tess4j', version: '3.2.1'
+    //compile group: 'com.nativelibs4java', name: 'bridj', version: '0.7.0'
+
+
+}
