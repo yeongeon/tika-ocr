@@ -15,11 +15,18 @@ dependencies {
     compile group: 'org.apache.tika', name: 'tika-core', version: '1.13'
     compile group: 'org.apache.tika', name: 'tika-parsers', version: '1.13'
 
+    compile group: 'net.sourceforge.tess4j', name: 'tess4j', version: '3.2.1'
+
+
     //compile group: 'org.apache.tika', name: 'tika-example', version: '1.13'
 
 
     //compile group: 'net.sourceforge.tess4j', name: 'tess4j', version: '3.2.1'
     //compile group: 'com.nativelibs4java', name: 'bridj', version: '0.7.0'
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
+    //compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.21'
+
 
 
 }
